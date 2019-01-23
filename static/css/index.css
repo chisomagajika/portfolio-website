@@ -66,6 +66,8 @@ h3 {
 }
 .headshot {
   border: 5px solid #7b8287;
+  width: 60%;
+  max-width: 600px;
 }
 .bio {
   margin: 100px 150px;
