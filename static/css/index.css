@@ -100,7 +100,7 @@ h1 {
   font-size: 2.5rem;
 }
 .cards img {
-  max-width: 98%;
+  max-width: 90%;
 }
 @media (max-width: 600px) {
   body {
