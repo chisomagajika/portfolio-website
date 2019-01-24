@@ -42,34 +42,34 @@
     <link rel="stylesheet" href="static/css/index.css" />
   </head>
   <body>
+    <nav>
+      <div class="navbar">
+        <ul>
+          <li class="karolina">Karolina</li>
+          <li><a href="#about-me" class="override">About</a></li>
+          <li><a href="#projects" class="override">Projects</a></li>
+          <li><a href="#resources" class="override">Resources</a></li>
+          <li><a href="#contact" class="override">Contact</a></li>
+          <li>
+            <a
+              href="https://github.com/karolina-benitez"
+              target="_blank"
+              class="override"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/karolina-benitez/"
+              class="override"
+              target="_blank"
+              >Linkedin</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
     <div class="container">
-      <nav>
-        <div class="navbar container">
-          <ul>
-            <li class="karolina">Karolina</li>
-            <li><a href="#about-me" class="override">About</a></li>
-            <li><a href="#projects" class="override">Projects</a></li>
-            <li><a href="#resources" class="override">Resources</a></li>
-            <li><a href="#contact" class="override">Contact</a></li>
-            <li>
-              <a
-                href="https://github.com/karolina-benitez"
-                target="_blank"
-                class="override"
-                >GitHub</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/karolina-benitez/"
-                class="override"
-                target="_blank"
-                >Linkedin</a
-              >
-            </li>
-          </ul>
-        </div>
-      </nav>
       <section id="about-me">
         <div class="row">
           <div class="col-sm-12">
@@ -83,7 +83,7 @@
             />
           </div>
           <div class="col-sm-12">
-            <h3 class="bio">
+            <h3 class="bio" aria-label="Karolina's biography">
               Social Worker turned Software Engineer Apprentice. I am interested
               in using my experience working with underserved populations to
               advocate and contribute to social good in tech
@@ -222,17 +222,20 @@
           </p>
         </div>
         <div class="col-sm-12  text-center">
-          <a href="mailto:kbeniitez#gmail.com"
+          <a href="mailto:kbeniitez#gmail.com" aria-label="Email link"
             ><i class="glyphicon glyphicon-envelope"></i
           ></a>
         </div>
         <div class="col-sm-12  text-center">
-          <p>
-            Follow me on twitter to get daily updates on my coding journey
-            <a href="https://twitter.com/karolina2o9" target="_blank"
-              ><i class="fab fa-twitter"></i
-            ></a>
-          </p>
+          <p>Follow me on twitter to get daily updates on my coding journey</p>
+        </div>
+        <div class="col-sm-12  text-center">
+          <a
+            href="https://twitter.com/karolina2o9"
+            aria-label="Twitter link"
+            target="_blank"
+            ><i class="fab fa-twitter" aria-label="Twitter Button"></i
+          ></a>
         </div>
       </section>
     </div>
