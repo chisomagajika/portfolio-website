@@ -19,7 +19,7 @@ body {
 }
 .container {
   background: white;
-  /*width: 80%;*/
+  width: 80%;
 }
 .navbar {
   list-style: none;
